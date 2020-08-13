@@ -20,3 +20,4 @@ For detailed explanation on how things work, checkout the [CLI Readme](https://g
 
 Note: When pre-rendering, your module as components are executed in a Node.js environment, where most Web APIs are not available. To account for this, wrap that code in a check like `if (typeof window !== 'undefined')`. 
 Do not add `preact build --no-prerender` to the build command as it will prevent blog posts from rendering.
+m
